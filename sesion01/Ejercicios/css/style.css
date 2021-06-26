@@ -1,0 +1,11 @@
+/* Hemos utilizado clase*/
+.titulo-grande{
+    color:aquamarine;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Hemos utilizado id*/
+#titulo{
+    color:aquamarine;
+    background-color: black;
+}
