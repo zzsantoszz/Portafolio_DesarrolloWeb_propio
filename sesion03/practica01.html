@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--version de HTML-->
+<html lang="es">
+<!--Identar bien el codigo-->
+
+<head>
+    <!--ahi estan etiquetas de cabecera-->
+    <meta chasrset="UTF-8">
+    <!--la pagina tendra caracteres especiales-->
+    <meta name="description" content="Descripcion: “Aliento Virtual a la Selección en la Copa América 2021">
+    <!--descripcion-->
+    <title>Aliento Virtual</title>
+    <link rel="stylesheet" href="css\style.css">
+    <!--Hoja de estilos    estilo css-->
+</head>
+
+<body>
+    <main>
+        <h1>Aliento Virtual a la Selección en la Copa América 2021</h1>
+
+            <form action="registro_exitoso.html" method="POST">
+                <fieldset>
+                    <label>Nombres: </label>
+                    <input type="text" name="nombres" pattern="[A-Za-záéíóú\s]{1,30}" title="solo texto" autocomplete="name"
+                        required /><br />
+                    <br>
+                    <label>Apellidos: </label>
+                    <input type="text" name="apellidos" pattern="[A-Za-záéíóú\s]{1,30}" title="solo texto"
+                        required /><br />
+                    <br>
+                    <label>Dni: </label>
+                    <input type="text" name="dni" pattern="[0-9]{8}" title="solo numero con 8 digitos"
+                        required /><br />
+                    <br>
+                    <label>Sexo: </label>
+                    <input type="radio" name="sexo" checked />Masculino
+                    <input type="radio" name="sexo" />Femenino<br />
+                    <br>
+                    <label>Numero de celular: </label>
+                    <input type="text" name="dni" pattern="[0-9]{9}" title="solo numero con 9 digitos"
+                        required /><br />
+                    <br>
+                    <label>Email: </label>
+                    <input type="email" name="correo" required /><br />
+                    <br>
+                    <label>Foto: </label>
+                    <input type="file" name="imagen" required><br>
+                    <br>
+                    <label>Mensaje de aliento:</label><br />
+                    <textarea name="mensaje" cols="40" rows="20" required></textarea><br />
+
+                    <button type="submit">ENVIAR</button>
+                    <button type="reset">RESTABLECER</button>
+                </fieldset>
+            </form>
+    </main>
+</body>
+
+</html>

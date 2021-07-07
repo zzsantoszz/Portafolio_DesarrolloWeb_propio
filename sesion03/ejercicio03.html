@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--version de HTML-->
+<html lang="es">
+<!--Identar bien el codigo-->
+
+<head>
+    <!--ahi estan etiquetas de cabecera-->
+    <meta chasrset="UTF-8" />
+    <!--la pagina tendra caracteres especiales-->
+    <meta name="description" content="Descripcion: Somos los mejores XD." />
+    <!--descripcion-->
+    <title>Devmaster Peru</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <!--Hoja de estilos    estilo css-->
+</head>
+
+<body>
+    <main>
+        <section>
+            <figure>
+                <img src="https://lorempixel.com/400/400/" alt="texto alternativo" title="soy una imagen" />
+            </figure>
+        </section>
+        <section>
+            <h2>REGISTRAR USUARIO</h2>
+            <form action="registro_exitoso.html" method="POST">
+                <input type="text" placeholder="nombre" required /><br><br><!-- nombre -->
+                <input type="text" placeholder="correl electronico" required /><br><br><!-- correo electronico -->
+                <input type="password" placeholder="password" required /><br><br><!-- password -->
+                <!-- catpcha-->
+                <input type="submit" value="registrar" /><!-- botom -->
+                <input type="reset" value="limpiar campos" /><!-- botom -->
+                <input type="button" value="accion" /><!-- botom -->
+                <br><br>
+                <button type="submit">registrar</button><!-- botom -->
+                <button type="reset">limpiar campos</button><!-- botom -->
+                <button type="button">accion</button><!-- botom -->
+            </form>
+        </section>
+        <br><br>
+        <section>
+            <form action="" method="">
+                <fieldset>
+                    <legend>REGISTRAR USUARIO</legend>
+                    <label>NOMBRES</label>
+                    <input type="text" name="nombres" required /><br><br>
+                    <!-- nombre -->
+                    <label>EMAIL</label>
+                    <input type="text" name="email" required /><br><br><!-- correo electronico -->
+                    <label>CONTRASENA</label>
+                    <input type="password" name="contraseña" required /><br><br><!-- password -->
+                    <!-- catpcha-->
+
+                    <label>SEXO: </label>
+                    <input type="radio" name="sexo"> HOMBRE
+                    <input type="radio" name="sexo" checked> MUJER<br><br>
+                    <input type="hidden" name="id">
+                    <label>MENSAJE: </label>
+                    <textarea name="mensaje" cols="30" rows="10"></textarea><br><br>
+                    <input type="checkbox"> He leido y acepto los <a href="#">TERMINOS Y CONDICIONES</a><br><br>
+                    <!--
+                    <input type="submit" value="registrar" />-->
+                    <!-- botom -->
+                    <!--         <input type="reset" value="limpiar campos" />-->
+                    <!-- botom -->
+                    <!--       <input type="button" value="accion" />-->
+                    <!-- botom -->
+
+                    <br><br>
+                    <button type="submit">registrar</button><!-- botom -->
+                    <button type="reset">limpiar campos</button><!-- botom -->
+                    <button type="button">accion</button><!-- botom -->
+
+                </fieldset>
+            </form>
+        </section>
+        <br><br>
+        <section>
+            <form>
+                <label>NOMBRES: </label> <input type="text"><br><br>
+                <label>EMAIL: </label> <input type="email"><br><br>
+                <label>TELEFONO: </label> <input type="tel"><br><br>
+                <label>CONTRASENA: </label> <input type="password"><br><br>
+                <label>EDAD: </label> <input type="number"><br><br>
+                <label>NACIMIENTO: </label> <input type="date"><br><br>
+                <label>MES: </label> <input type="month"><br><br>
+                <label>SEMANA: </label> <input type="week"><br><br>
+                <label>HORA: </label> <input type="time"><br><br>
+                <label>BUSQUEDA: </label> <input type="search"><br><br>
+                <label>URL: </label> <input type="url"><br><br>
+                <label>ARCHIVO: </label> <input type="file"><br><br>
+                <label>COLOR: </label> <input type="color"><br><br>
+                <label>RADIO: </label> <input type="radio"><br><br>
+                <label>CHECKBOX: </label> <input type="checkbox"><br><br>
+                <label>NOMBRES: </label> <input type="hidden"><br><br>
+                <label>NOMBRES: </label> <input type="submit"><br><br>
+                <label>NOMBRES: </label> <input type="reset"><br><br>
+                <label>NOMBRES: </label> <input type="button"><br><br>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
