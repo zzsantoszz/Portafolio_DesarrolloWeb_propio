@@ -4,19 +4,36 @@
     <head> <!--ahi estan etiquetas de cabecera-->
         <meta charset="UTF-8"><!--la pagina tendra caracteres especiales-->
         <meta name="description" content="Descripcion: Somos los mejores XD."><!--descripcion-->
-        <title>Pagina de prueba</title>
-        <link rel="stylesheet" href="css\style.css"><!--Hoja de estilos    estilo css-->
+        <title>Proyecto Clase</title>
+        <!--Awesome-->
+        <script src="https://kit.fontawesome.com/0c0f3a8c3b.js" crossorigin="anonymous"></script>
+        <!-- Linearicons -->
+        <link rel="stylesheet" href="css/linearicons.css">
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css"><!--Hoja de estilos  estilo css-->
     </head>
     
     <body>
+        <!--fixed social-->
+        <!--
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </nav>
+
+        -->
         <header>
-            <figure><img src="" alt="Devmaster"></figure>
+            <figure><img src="img/logo.png" alt="Devmaster"></figure>
             <figure><img src="" alt=""></figure>
             <div>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+
+            </div><!--MENU hamburguesa-->
         </header>
 
         <main>
@@ -27,38 +44,92 @@
                 <a href="#">CONTACT</a>
             </section>
             <section>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <span class="icon-star"></span>
+                    <h3>+5 Years of Experience</h3>
+                </div><!--card1-->
+                <div>
+                    <span class="icon-medal-first"></span>
+                    <h3>15 Happy Customers</h3>
+                </div><!--card2-->
+                <div>
+                    <span class="icon-code"></span>
+                    <h3>+32000 Lines of Code</h3>
+                </div><!--card3-->
+                <div>
+                    <span class="icon-license2"></span>
+                    <h3>4 International Awards</h3>
+                </div><!--card4-->
+
             </section>
             <section>
-                <p><span>¿LOREM IPSUM?</span></p>
-                <h2>My services</h2>
-                <div></div>
+                <h2><span style="color: red;">¿LOREM IPSUM?</span> My services</h2>
+                <div>
+                    <figure><img src="img/design.png" alt="design" title="design"></figure>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                    <a href="pages/design.html">VER MAS</a>
+                </div><!--DESIGN-->
+                <div>
+                    <figure><img src="img/development.png" alt="development" title="development"></figure>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                    <a href="pages/development.html">VER MAS</a>
+                </div><!--DEVELOPMENT-->
+                <div>
+                    <figure><img src="img/ux.png" alt="ux" title="ux"></figure>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                    <a href="pages/ux.html">VER MAS</a>
+                </div><!--UX-->
                 <div></div>
                 <div></div>
             </section>
             <section>
                 <h2>We are ready to listen, write us a message</h2>
+                <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> MESSAGE</a>
             </section>
             <section>
-                <p><span>DESERUNT</span></p>
-                <h2>Recommendations</h2>
+                <h2><span style="color: red;">DESERUNT</span> Recommendations</h2>
+                <div>
+                    <figure>
+                        <img src="img/recommendation-3.png" alt="AVATAR" title="AVATAR">
+                        <figcaption>Patrick Harry<span> Web Developer</span></figcaption>
+                    </figure>
+                    <p>Is awesome and I can’t image working on my projects without it. It has saved me countless hours of time and has increased.</p>
+                </div><!--CARD 1-->
+                <div>
+                    <figure>
+                        <img src="img/recommendation-3.png" alt="AVATAR" title="AVATAR">
+                        <figcaption>Patrick Harry<span> Web Developer</span></figcaption>
+                    </figure>
+                    <p>Is awesome and I can’t image working on my projects without it. It has saved me countless hours of time and has increased.</p>
+                </div><!--CARD 2-->
+                <div>
+                    <figure>
+                        <img src="img/recommendation-3.png" alt="AVATAR" title="AVATAR">
+                        <figcaption>Patrick Harry<span> Web Developer</span></figcaption>
+                    </figure>
+                    <p>Is awesome and I can’t image working on my projects without it. It has saved me countless hours of time and has increased.</p>
+                </div><!--CARD 3-->
             </section>
             <section>
-                <p><span>reprehenderit in voluptate</span></p>
-                <h2>Leave us a message</h2>
+                <h2><span style="color: red;">reprehenderit in voluptate</span> Leave us a message</h2>
+                <form action="#" method="POST"><!--no usar metodo GET ya que aparece la info en la url-->
+                    <input type="name" name="nombre" title="nombre" placeholder="Name">
+                    <input type="email" name="email" title="email" placeholder="email">
+                    <input type="text" name="subject" title="subject" placeholder="subject">
+                    <textarea placeholder="Your message"></textarea>
+                    <!--catpcha-->
+                    <button type="submit">SEND</button><!-- tiene un evento por defecto enviar la informacion -->
+                </form>
             </section>
         </main>
         
         <footer>
             <nav>
                 <ul>
-                    <li><a href=""><figure><img src="img/" alt="facebook"></figure></a></li>
-                    <li><a href=""><figure><img src="img/" alt="twiter"></figure></a></li>
-                    <li><a href=""><figure><img src="img/" alt="instagram"></figure></a></li>
-                    <li><a href=""><figure><img src="img/" alt="google+"></figure></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
                 </ul>
             </nav>
             <p><small>©Devmaster Perú. All rights reserved. <br>Design - <a href="">GManriqe</a></small></p>

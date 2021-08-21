@@ -1,0 +1,43 @@
+h2 {
+    margin: 0px;
+}
+
+figure {
+    width: 380px;
+    height: 222px;
+    margin: 0px;
+}
+
+.contenido {
+    padding: 30px;
+}
+
+.card {
+    width: 380px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.card_btn {
+    text-align: center;
+}
+
+.boton{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 13px 19px 13px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
