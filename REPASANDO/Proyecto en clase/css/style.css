@@ -1,9 +1,20 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Zilla Slab', serif;
 */
+:root{
+    --primary-color: red;
+    --secondary-color: ;
+    --terterary-color: ;
+    --quaternary-color: ;
+    --quinary-color: ;
+    --black-color: black;
+    --white-color: white;
+}
+
 html {
     font-size: 18px;
 }
@@ -27,4 +38,60 @@ h3{
 h1,h2,h3 {
     font-family: 'Zilla Slab', serif;
     font-weight: 700px;
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
+/*************
+Componente
+*************/
+.container {
+    outline: 1px dashed deeppink;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*************
+Style
+*************/
+.banner {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    width: 700px;
+    text-align: center;
+}
+
+-banner span {
+    color: var(--primary-color);
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 21px;
+    width: 170px;
+    padding:12px 0;
+    font-weight: 700px;
+}
+
+/* Features */
+.btn-primary
+{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    /*border: 2px solid var(--primary-color);*/
+}
+.btn-secundary
+{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }

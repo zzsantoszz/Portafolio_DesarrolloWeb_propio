@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!--version de HTML-->
+<html lang="es">
+    <!--Identar bien el codigo-->
+    <head> <!--ahi estan etiquetas de cabecera-->
+        <meta charset="UTF-8"><!--la pagina tendra caracteres especiales-->
+        <meta name="description" content="Descripcion: Somos los mejores XD."><!--descripcion-->
+        <title>Pagina de prueba</title>
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css\style2.css"><!--Hoja de estilos  estilo css-->
+        <style>
+            section {
+                background-color: deeppink;
+                width: 800px;
+                height: 400px;
+                display: flex;
+                flex-direction: row;/*flex-direction: /* 󰘲 row | row-reverse | column | column-reverse ;*/
+                justify-content: normal;
+                /*justify-content: center; /* 󰘲 normal | center | space-around | space-between | flex-start | flex-end */
+                flex-wrap: nowrap;
+            }
+            article {
+                background-color: teal;
+                width: 300px;
+                height: 100px;
+            }
+
+            section :nth-child(2) {
+                border: 4px dashed lime;
+                order: 1;
+            } 
+            section :nth-child(3) {
+                border: 4px dashed lime;
+                order: 2;
+            }
+            section :nth-child(4) {
+                border: 4px dashed lime;
+                order: 3;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <section><!--elemento padre-->
+            <article>1</article><!--eleemnto hijo-->
+            <article>2</article><!--eleemnto hijo-->
+            <article>3</article><!--eleemnto hijo-->
+            <article>4</article><!--eleemnto hijo-->
+            <article>5</article><!--eleemnto hijo-->
+        </section>
+    </body>
+</html>
